@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import Introduction from './components/Introduction';
+import Projects from './components/Projects';
+
 
 function App() {
+  const [english, setEnglish] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <Header english={english} setEnglish={setEnglish} />
+      <div className='image--container'>
+        <h1 className='heading--image--text'>I am Eirik</h1>
+      </div>
+      {/* <img className='top--image' src={'../images/Eirik-Large.jpeg'} alt="" /> */}
+      <main >
+        <Introduction english={english} />
+        <Projects />
+      </main>
     </div>
   );
 }

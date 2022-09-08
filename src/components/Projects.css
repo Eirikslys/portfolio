@@ -1,0 +1,22 @@
+.project-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-heading-container {
+  text-align: center;
+}
+
+.project-heading {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .project-heading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,95 @@
+.introduction-container {
+  height: 300px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+
+.introduction-text-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.introduction-image-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.introduction-heading {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.introduction-text {
+  display: flex;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.8;
+  letter-spacing: 1.8px;
+  width: 50%;
+}
+
+.introduction-image-frame {
+  background-color: rgb(203, 203, 203);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.introduction-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover
+}
+
+@media only screen and (max-width: 700px) {
+  .introduction-text {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .introduction-text {
+    width: 90%;
+  }
+  .introduction-heading-container {
+    justify-content: center;
+  }
+  .introduction-text-container {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .introduction-heading {
+    font-size: 2em;
+  }
+  .introduction-text {
+    font-size: 0.9em;
+  }
+  .introduction-text {
+    width: 100%;
+  }
+  .introduction-image-frame {
+    background-color: rgb(203, 203, 203);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+}
