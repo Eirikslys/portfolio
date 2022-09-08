@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Introduction.css'
 import { useEffect } from 'react';
 
-const Introduction = (english) => {
+const Introduction = ({english}) => {
   const [text, setText] = useState('I am a self-taught boot camp graduate from Oslo. I am looking for opportunities to expand my knowledge and get to the next level as a developer.')
 
   useEffect(() => {

@@ -15,7 +15,6 @@ function App() {
       <div className='image--container'>
         <h1 className='heading--image--text'>I am Eirik</h1>
       </div>
-      {/* <img className='top--image' src={'../images/Eirik-Large.jpeg'} alt="" /> */}
       <main >
         <Introduction english={english} />
         <Projects />
