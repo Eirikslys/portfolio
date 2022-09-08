@@ -6,7 +6,7 @@ export const projects = [
       'Heyra is a AirBnb like online market for booking fishing and hunting experiences. I made this for a startup and took them from an idea to a complete MVP. Functionality includes booking, stripe payment, a chat system and more. Thanks to Bubble I created this on my own in less than a year.',
     technologyUsed: 'Bubble, regex, google map APIs',
     url: 'https://www.heyra.no',
-    media: '../images/heyra.png',
+    media: '../images/Heyra.png',
   },
   {
     name: 'Fabryca',
@@ -15,7 +15,7 @@ export const projects = [
     technologyUsed: 'React, dotNet, C#, HTML, CSS, Azure, SQL',
     gitHubLink: 'https://github.com/VladDrag/Fabryca',
     url: 'https://www.fabryca.no',
-    media: './images/fabryca.png',
+    media: './images/Fabryca.png',
   },
    {
     name: 'HotSpots',
