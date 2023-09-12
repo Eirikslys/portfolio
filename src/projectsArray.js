@@ -22,7 +22,7 @@ export const projects = [
     description:
       'Made in a team of 3 as a part of the Le Wagon boot camp. Hotspots is an AirBnb clone for hosting and booking locations for photoshoots.',
     technologyUsed: 'Ruby, Ruby on Rails, Javascript, Html, CSS, SQL, Bootstrap',
-    gitHubLink: 'https://github.com/Mobbishly/TappyPublic',
+    gitHubLink: 'https://github.com/Eirikslys/hotspots',
     url: 'https://hotspotslw.herokuapp.com/',
     media: './images/hotspots.png',
   }
