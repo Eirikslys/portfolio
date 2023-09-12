@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ProjectCard.css';
 
 const ProjectCard = (project) => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="project-card">
@@ -26,7 +26,7 @@ const ProjectCard = (project) => {
         </div>
       </div>
       <div className="media-container">
-        <a>
+        <a href="" >
           <img className="project-media" src={project.media} alt="" />
         </a>
       </div>
