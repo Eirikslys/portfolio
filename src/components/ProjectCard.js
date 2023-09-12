@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import React, { useState } from 'react';
 import './ProjectCard.css';
 
 const ProjectCard = (project) => {
@@ -26,7 +27,7 @@ const ProjectCard = (project) => {
         </div>
       </div>
       <div className="media-container">
-        <a href="" >
+        <a href="#" >
           <img className="project-media" src={project.media} alt="" />
         </a>
       </div>
