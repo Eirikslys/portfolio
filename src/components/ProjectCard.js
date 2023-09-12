@@ -27,9 +27,9 @@ const ProjectCard = (project) => {
         </div>
       </div>
       <div className="media-container">
-        // <a href="#" >
+          {// <a >}
           <img className="project-media" src={project.media} alt="" />
-        // </a>
+          {// </a>}
       </div>
 
     </div>
