@@ -40,6 +40,7 @@ const Header = ({english, setEnglish}) => {
           <li>
 
           </li>
+            
           {/* {currentTheme === 'light' ? (
             <li>
               <div onClick={onClick} className="nav-link">
@@ -53,6 +54,7 @@ const Header = ({english, setEnglish}) => {
               </div>
             </li>
           )} */}
+    
         </ul>
       </div>
     </div>
